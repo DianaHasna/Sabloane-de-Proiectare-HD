@@ -1,14 +1,8 @@
-public class Image implements Element{
-    String img;
-
-    public Image (String img){
-        this.img = img ;
-    }
-
+public class TableOfContents implements Element{
 
     @Override
     public void print() {
-        System.out.println("Image with name: " + img);
+
     }
 
     @Override
