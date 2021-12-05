@@ -10,3 +10,6 @@ https://github.com/DianaHasna/Sabloane-de-Proiectare-HD/commit/7cd5768eb44687d1c
 
 # Feedback lab4:
 - no content
+
+# Feedback lab5:
+- no content
