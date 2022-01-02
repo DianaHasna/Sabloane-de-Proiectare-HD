@@ -1,5 +1,7 @@
 public class Paragraph implements Element{
     String title;
+    AliniereStrategy aliniereStrategy;
+
 
     public Paragraph(String title){
         this.title = title;
@@ -8,7 +10,11 @@ public class Paragraph implements Element{
 
     @Override
     public void print() {
-        System.out.println("Paragraph: " + this.title);
+        if (this.aliniereStrategy !=null){
+            this.aliniereStrategy.render(this.title);
+        }
+        else
+            System.out.println(this.title);
     }
 
     @Override
@@ -25,4 +31,10 @@ public class Paragraph implements Element{
     public Element get(int x) {
         return null;
     }
+
+    public void setAlignStrategy(AliniereStrategy alignStrategy) {
+        this.aliniereStrategy = alignStrategy;
+
+    }
+
 }
