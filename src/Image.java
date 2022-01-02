@@ -1,8 +1,15 @@
+import java.util.concurrent.TimeUnit;
+
 public class Image implements Element{
     String img;
 
     public Image (String img){
         this.img = img ;
+        try {
+            TimeUnit.SECONDS.sleep(5);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
