@@ -12,9 +12,9 @@ https://github.com/DianaHasna/Sabloane-de-Proiectare-HD/commit/7cd5768eb44687d1c
 - no content
 
 # Feedback lab5:
-- no content
+- no singleton and no visitor
 
 # Feedback lab6:
 - no content
 
-# Proposed grade: 4
+# Proposed grade: 7
